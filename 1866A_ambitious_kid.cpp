@@ -15,7 +15,7 @@ int main(){
 			break;
 		}
 	}
-
+			
 	cout<<curr;
 
 	return 0;
