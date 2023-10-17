@@ -23,8 +23,8 @@ int main(){
       continue;
     }
 
-    int l0 = NULL, r0 = NULL;
-    int l1 = NULL, r1 = NULL;
+    int l0 = 0, r0 = NULL;
+    int l1 = NULL, r1 = ;
 
     for (int i = 0; i< a.length(); i++) {
       if (a[i] == b[i]) {
@@ -45,8 +45,8 @@ int main(){
       }
     }
 
-    int sum = r0-l0 + r1-l1;
-    if (a.length() == sum) {
+    
+    if (a == b) {
       cout << "YES" << "\n";
     } else {
       cout << "NO"  << "\n";
